@@ -3,7 +3,6 @@
 from dataclasses import dataclass
 from pathlib import Path
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_MODEL_DIR = PROJECT_ROOT / "models"
 DEFAULT_KNOWN_DIR = PROJECT_ROOT / "data" / "known_faces"
